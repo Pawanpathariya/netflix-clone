@@ -1,0 +1,103 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 0, 0) url(background.png);
+    background-size: 1520px 475px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+.logo{
+    width: 17%;
+}
+.btn{
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #e50914;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav{
+    padding: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+select{
+    margin-left: 70%;
+    padding: 8px;
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 40px;
+    font-family: 'Mukta' ,sans-serif;
+}
+.main h3{
+    font-size: 30px;
+}
+.main p{
+    font-size: 24px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.first{
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+   padding: 66px;
+   border-top: 4px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 35px;
+}
+.first img{
+    width: 44%;
+
+}
+.button h1{
+    text-align:center;
+    margin-top: 33px;
+    font-size: 45px;
+}
+.button button{
+    width: 900px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 26px;
+    margin-left: 20%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 15%;
+}
